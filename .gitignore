@@ -1,0 +1,23 @@
+# Xcode
+*.xcuserdata
+*.xcworkspace
+*.xcodeproj
+DerivedData/
+
+# Swift
+.build/
+*.o
+*.dSYM.zip
+*.dSYM
+
+# 依赖
+Packages/
+Package.resolved
+
+# 密钥 & 本地配置
+*.xcconfig
+!*.sample.xcconfig
+
+# 系统文件
+.DS_Store
+Thumbs.db
